@@ -55,4 +55,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::get('/login','ApiController@accessToken');
 
 
- Route::get('/mostrarTexto','PersonController@index');
+Route::get('/mostrarTexto','PersonController@index');
