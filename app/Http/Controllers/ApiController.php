@@ -74,7 +74,6 @@ class ApiController extends Controller
                $errors = $validator->errors();
 
            }
-
        }elseif($type == "create todo"){
 
            $validator = Validator::make($request->all(),[
