@@ -86,6 +86,7 @@ class ApiController extends Controller
 
            ]);
 
+
            if($validator->fails()){
 
                $error = true;
