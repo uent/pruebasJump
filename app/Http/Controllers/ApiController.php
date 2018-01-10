@@ -51,7 +51,6 @@ class ApiController extends Controller
 
   }
 
-
    public function validations($request,$type){
 
        $errors = [ ];
