@@ -24,7 +24,7 @@ class PersonController extends Controller
  {
    $person = new Person;
    $person->name = $request->name;
-   $person->save();
+   $person->save(); 
  }
 
 }
