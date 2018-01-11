@@ -9,6 +9,7 @@ use App\Person;
 class PersonController extends Controller
 {
 
+
  public function index()
  {
      return  Person::all();
